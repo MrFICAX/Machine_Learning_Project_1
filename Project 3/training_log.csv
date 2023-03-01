@@ -1,0 +1,5 @@
+imbalance,accuracy,loss,learning_rate,loss_function,optimizer_name,stopped_epoch,epochs,dense_layers,dense_layer_units,batch_size,monitor,patience,kernel_regularizer,dropout,timestamp
+True,0.8034999966621399,0.819588303565979,0.0002,binary_crossentropy,adam,,8,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9C2FC820>,0.3,2023-03-02 00:15:52
+True,0.8034999966621399,0.668110728263855,0.0002,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9DE825E0>,0.1,2023-03-02 00:16:19
+True,0.8619999885559082,0.4230231046676636,0.0002,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9D185250>,0.0,2023-03-02 00:17:25
+False,0.7733835577964783,0.5498921275138855,0.0002,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",128,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9E1DDC40>,0.3,2023-03-02 00:23:18
