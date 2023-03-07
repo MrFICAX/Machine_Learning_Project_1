@@ -1,5 +1,24 @@
 imbalance,accuracy,loss,learning_rate,loss_function,optimizer_name,stopped_epoch,epochs,dense_layers,dense_layer_units,batch_size,monitor,patience,kernel_regularizer,dropout,timestamp
-True,0.8034999966621399,0.819588303565979,0.0002,binary_crossentropy,adam,,8,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9C2FC820>,0.3,2023-03-02 00:15:52
-True,0.8034999966621399,0.668110728263855,0.0002,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9DE825E0>,0.1,2023-03-02 00:16:19
-True,0.8619999885559082,0.4230231046676636,0.0002,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9D185250>,0.0,2023-03-02 00:17:25
-False,0.7733835577964783,0.5498921275138855,0.0002,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",128,val_accuracy,5,<keras.regularizers.L2 object at 0x0000019B9E1DDC40>,0.3,2023-03-02 00:23:18
+True,0.7900000214576721,0.5846614241600037,0.0005,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE5FEC1F0>,0.3,2023-03-07 02:29:46
+True,0.7900000214576721,0.4655177295207977,0.0005,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE74AF460>,0.3,2023-03-07 02:30:28
+True,0.8516666889190674,0.3575562834739685,0.0005,binary_crossentropy,adam,,23,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE74AF4C0>,0.3,2023-03-07 02:32:14
+True,0.8416666388511658,0.3652519285678863,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE6EF1EB0>,0.3,2023-03-07 02:33:45
+True,0.8475000262260437,0.3654554188251495,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE59A2970>,0.3,2023-03-07 02:36:33
+True,0.8558333516120911,0.3596196472644806,0.0005,binary_crossentropy,adam,,23,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE6899190>,0.3,2023-03-07 02:41:59
+False,0.7650444507598877,0.467672199010849,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",128,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE59A59A0>,0.3,2023-03-07 02:42:33
+True,0.8600000143051147,0.3439041078090668,0.0005,binary_crossentropy,adam,,24,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE4D9A4F0>,0.3,2023-03-07 02:50:37
+False,0.7870225310325623,0.4555539488792419,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",128,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE7BAAAF0>,0.3,2023-03-07 02:51:00
+True,0.8579166531562805,0.3540138602256775,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE73366A0>,0.3,2023-03-07 11:35:44
+True,0.7900000214576721,0.4836172461509704,0.0001,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AD3C0D490>,0.3,2023-03-07 11:36:48
+True,0.8537499904632568,0.3537001311779022,0.002,binary_crossentropy,adam,,17,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE72AB550>,0.3,2023-03-07 11:37:38
+True,0.7900000214576721,0.4641953110694885,0.0002,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AD2E07610>,0.0,2023-03-07 11:43:18
+True,0.7900000214576721,0.475919634103775,0.0002,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE7F56490>,0.3,2023-03-07 11:43:53
+True,0.8566666841506958,0.3532372117042541,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE5B14A30>,0.0,2023-03-07 11:44:56
+True,0.8454166650772095,0.3687765896320343,0.0005,binary_crossentropy,adam,,20,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE61F9640>,0.3,2023-03-07 11:45:49
+True,0.7900000214576721,0.4373044967651367,0.0007,binary_crossentropy,adam,,6,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE4DA03A0>,0.3,2023-03-07 11:46:14
+True,0.8575000166893005,0.357470154762268,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE62B6B50>,0.3,2023-03-07 11:47:13
+True,0.8520833253860474,0.351434975862503,0.0005,binary_crossentropy,adam,,18,7,"[64, 64, 64, 64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AD2C26880>,0.3,2023-03-07 11:49:32
+True,0.8508333563804626,0.3641877770423889,0.0005,binary_crossentropy,adam,,17,7,"[64, 64, 64, 64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE617B670>,0.0,2023-03-07 11:50:32
+True,0.8545833230018616,0.3545478582382202,0.0002,binary_crossentropy,adam,,25,8,"[128, 64, 64, 64, 64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE5690370>,0.0,2023-03-07 11:52:03
+True,0.8504166603088379,0.3554392457008362,0.002,binary_crossentropy,adam,,19,8,"[128, 64, 64, 64, 64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE474BA30>,0.0,2023-03-07 11:52:58
+True,0.856249988079071,0.34550201892852783,0.0005,binary_crossentropy,adam,,25,4,"[64, 32, 16, 8]",64,val_accuracy,5,<keras.regularizers.L2 object at 0x0000022AE474BC70>,0.0,2023-03-07 11:54:41
